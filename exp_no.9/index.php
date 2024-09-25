@@ -44,7 +44,8 @@ if($file){
 $content = fread($file, filesize($filename));
 fclose($file);
 echo "<h2>File content :</h2> <pre>$content</pre>";
-} else 
+} 
+else 
 {
 echo "<p>Unable to open the file for reading.</p>";
 }
